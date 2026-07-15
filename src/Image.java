@@ -5,7 +5,7 @@ public class Image {
 	public Image ( String name , int width , int height ){
 		this.name=name ;
 		this.width=width ;
-		this.heigh=heigh ;
+		this.height=height ;
 	}
 	public void display(){
 		System.out.println( "显示图片"+name ) ;
