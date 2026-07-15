@@ -6,3 +6,6 @@ public class Main {
 	System.out.println( "矩形面积:"+r.getArea() );
 	}
 }
+Image image = new Image("cat.png",800,600);
+image.display();
+System.out.println("图片大小："+image.getSize());
