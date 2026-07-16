@@ -3,6 +3,7 @@ public class Circle implements Shape {
 
 	public Circle (double r) {
 		this.r = r ;
+		System.out.println("ma");
 	}
 
 	@Override
