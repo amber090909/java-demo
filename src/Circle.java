@@ -1,9 +1,20 @@
 public class Circle implements Shape {
 	private double r ;
+	private String color;
+
+	public Circle (double r,String color) {
+		this.r = r ;
+		this.color=color ;
+		System.out.println("nihao");
+	}
 
 	public Circle (double r) {
 		this.r = r ;
 		System.out.println("ma");
+	}
+	
+	public void showColor(){
+		System.out.println("颜色"+color);
 	}
 
 	@Override
