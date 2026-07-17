@@ -7,5 +7,8 @@ public class Main {
 		Image image = new Image("cat.png",800,600);
 		image.display();
 		System.out.println("图片大小："+image.getSize());
+		Shape t = new Triangle(3,4,5);
+		System.out.println( t.getArea());
+		System.out.println(t.getPerimeter());
 	}
 }
