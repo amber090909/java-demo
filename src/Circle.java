@@ -6,6 +6,7 @@ public class Circle implements Shape {
 		this.r = r ;
 		this.color=color ;
 		System.out.println("nihao");
+
 	}
 
 	public Circle (double r) {
