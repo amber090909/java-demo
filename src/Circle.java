@@ -5,12 +5,11 @@ public class Circle implements Shape {
 	public Circle (double r,String color) {
 		this.r = r ;
 		this.color=color ;
-		System.out.println("nihao");
+		System.out.println("hi");
 	}
 
 	public Circle (double r) {
 		this.r = r ;
-		System.out.println("ma");
 	}
 	
 	public void showColor(){
